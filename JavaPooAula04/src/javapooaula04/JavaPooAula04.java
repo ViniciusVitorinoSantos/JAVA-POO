@@ -3,9 +3,8 @@ package javapooaula04;
 public class JavaPooAula04 {
     
     public static void main(String[] args) {
-        Caneta c1 = new Caneta();
-        c1.setModelo("Bic");
-        c1.setPonta(0.5f);
+        Caneta c1 = new Caneta("NIC", "AMARELA", 0.4F);
+        
         c1.status();
     }
     
